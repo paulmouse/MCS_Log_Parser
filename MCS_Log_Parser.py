@@ -37,7 +37,10 @@ def process_file(config):
 
 
         #nextDay = (datetime.datetime.now() + timedelta(days=1)).strftime("%d")
-        nextDay = str(int(currentDay) + 1)
+        if int(currentDay)< 10:
+            nextDay = '0' + str(int(currentDay) + 1)
+        else: nextDay = str(int(currentDay) + 1)
+
 
         currentDayLogFileName = (logFilePath + logFileNamePrefix + currentDay + '.' + logFileNameExtension)
         nextDayLogFileName = (logFilePath + logFileNamePrefix + nextDay + '.' + logFileNameExtension)
@@ -88,6 +91,7 @@ def process_file(config):
               ", Modified:", nextDayLogFileModifiedTime)
         print( 'File in work:', logFileName, )
         print(whatFileNewestText, newLineCount, 'lines')
+        print('Slice:', logFileName[slice(-6, -4)])
 
         if newLineCount > lastLineCount:
             with open(logPath + "output_MCS_Log.log", 'a', encoding='utf-8') as output_file:
@@ -101,8 +105,10 @@ def process_file(config):
                         eventType2 = match.group(5)
                         message = match.group(6)
                     # Проверяем каждую новую строку по условию
+                    whatconfig = config.get('settings', 'searchmask')
                     what = r"\bCProdList::\b"
                     #what = config.get('settings', 'searchmask')
+                    #what =  whatconfig
                     check = re.search(what, line)
                     # Здесь можно добавить условие, по которому выбираются нужные строки
                     if check is not None:
