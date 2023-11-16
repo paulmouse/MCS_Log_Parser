@@ -15,8 +15,9 @@ xmlPath = config.get("output", "xmlPath")
 logPath = config.get("output", "logPath")
 
 
+
 def process_file(config):
-    #logFileName = config.get('logfile', 'logFileName')
+    logFileName = config.get('logfile', 'logFileName')
     currentDay = config.get("logfile", "currentDay")
     lastLineCount = int(config.get('settings', 'totalLineRead'))
     logFilePath = config.get("logfile", "logFilePath")
@@ -32,8 +33,19 @@ def process_file(config):
             freshest_file = file
     #return freshest_file
     #print(f"The freshest file is: {freshest_file}")
+    print(f"The freshest file is: {freshest_file}")
+    print(f"Log file in config: {logFileName}")
+
+    if logFileName != freshest_file:
+        config.set('settings', 'totalLineRead', '1')
+        with open('config.ini', 'w') as config_file:
+            config.write(config_file)
+
     logFileName = freshest_file
-    currentDay = logFileName[slice(-6, -4)]
+    currentDay = freshest_file[slice(-6, -4)]
+
+    #print(f"The freshest file is: {logFileName}")
+    #print(f"Current day is: {currentDay}")
 
 
 
@@ -174,6 +186,7 @@ def process_file(config):
                             tree.write(f'{filenamexml}')
 
             config.set('settings', 'totalLineRead', str(newLineCount))
+            config.set('logfile', 'logFileName', logFileName)
             with open('config.ini', 'w') as config_file:
                 config.write(config_file)
         return newLineCount
