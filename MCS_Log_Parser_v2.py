@@ -5,6 +5,7 @@ import datetime
 import xml.etree.ElementTree as et
 import os.path
 import codecs
+import glob
 
 config = configparser.ConfigParser()
 config.read('config.ini')
@@ -15,12 +16,26 @@ logPath = config.get("output", "logPath")
 
 
 def process_file(config):
-    logFileName = config.get('logfile', 'logFileName')
+    #logFileName = config.get('logfile', 'logFileName')
     currentDay = config.get("logfile", "currentDay")
     lastLineCount = int(config.get('settings', 'totalLineRead'))
     logFilePath = config.get("logfile", "logFilePath")
     logFileNamePrefix = config.get("logfile", "logFileNamePrefix")
     logFileNameExtension = config.get("logfile", "logFileNameExtension")
+    freshest_file = None
+    freshest_time = 0
+
+    for file in glob.glob(os.path.join(logFilePath, f"*{logFileNameExtension}")):
+        file_time = os.path.getmtime(file)
+        if file_time > freshest_time:
+            freshest_time = file_time
+            freshest_file = file
+    #return freshest_file
+    #print(f"The freshest file is: {freshest_file}")
+    logFileName = freshest_file
+    currentDay = logFileName[slice(-6, -4)]
+
+
 
     BLOCKSIZE = os.path.getsize(logFileName)
     with codecs.open(logFileName, "r", "utf-16") as sourceFile:
@@ -37,63 +52,65 @@ def process_file(config):
 
 
         #nextDay = (datetime.datetime.now() + timedelta(days=1)).strftime("%d")
-        if int(currentDay)< 10:
-            nextDay = '0' + str(int(currentDay) + 1)
-        else: nextDay = str(int(currentDay) + 1)
+        # if int(currentDay)< 10:
+        #     nextDay = '0' + str(int(currentDay) + 1)
+        # else: nextDay = str(int(currentDay) + 1)
+        #
+        #
+        # currentDayLogFileName = (logFilePath + logFileNamePrefix + currentDay + '.' + logFileNameExtension)
+        # nextDayLogFileName = (logFilePath + logFileNamePrefix + nextDay + '.' + logFileNameExtension)
+        #
+        # currentDayLogFileExist = os.path.exists(currentDayLogFileName)
+        # nextDayLogFileExist = os.path.exists(nextDayLogFileName)
+        # logFilesList = os.listdir(logFilePath)
+        #
+        # if currentDayLogFileExist is True:
+        #     currentLogFileModifiedTimeSec = int(os.path.getmtime(currentDayLogFileName))
+        # else: currentLogFileModifiedTimeSec = 0
+        #
+        # if currentDayLogFileExist is True:
+        #     currentLogFileModifiedTime = datetime.datetime.fromtimestamp(currentLogFileModifiedTimeSec).strftime(
+        #         '%Y-%m-%d %H:%M:%S')
+        # else: currentLogFileModifiedTime = '1970-01-01 00:00:00'
+        #
+        # if nextDayLogFileExist is True:
+        #     nextDayLogFileModifiedTimeSec = int(os.path.getmtime(nextDayLogFileName))
+        # else:
+        #     nextDayLogFileModifiedTimeSec = 0
+        #
+        # if nextDayLogFileExist is True:
+        #     nextDayLogFileModifiedTime = datetime.datetime.fromtimestamp(nextDayLogFileModifiedTimeSec).strftime(
+        #     '%Y-%m-%d %H:%M:%S')
+        # else: nextDayLogFileModifiedTime = '1970-01-01 00:00:00'
+        #
+        # if currentLogFileModifiedTimeSec > nextDayLogFileModifiedTimeSec:
+        #     logFileName = currentDayLogFileName
+        #     config.set('logfile', 'logFileName', logFileName)
+        #     with open('config.ini', 'w') as config_file:
+        #         config.write(config_file)
+        #     whatFileNewestText = "In current log file:"
+        #
+        # else:
+        #     logFileName = nextDayLogFileName
+        #     currentDay = logFileName[slice(-6, -4)]
+        #     config.set('logfile', 'currentDay', currentDay)
+        #     config.set('logfile', 'logFileName', logFileName)
+        #     config.set('settings', 'totalLineRead', '1')
+        #     with open('config.ini', 'w') as config_file:
+        #         config.write(config_file)
+        #     whatFileNewestText = "Next Day file is newest"
+        #     return
 
-
-        currentDayLogFileName = (logFilePath + logFileNamePrefix + currentDay + '.' + logFileNameExtension)
-        nextDayLogFileName = (logFilePath + logFileNamePrefix + nextDay + '.' + logFileNameExtension)
-
-        currentDayLogFileExist = os.path.exists(currentDayLogFileName)
-        nextDayLogFileExist = os.path.exists(nextDayLogFileName)
-        logFilesList = os.listdir(logFilePath)
-
-        if currentDayLogFileExist is True:
-            currentLogFileModifiedTimeSec = int(os.path.getmtime(currentDayLogFileName))
-        else: currentLogFileModifiedTimeSec = 0
-
-        if currentDayLogFileExist is True:
-            currentLogFileModifiedTime = datetime.datetime.fromtimestamp(currentLogFileModifiedTimeSec).strftime(
-                '%Y-%m-%d %H:%M:%S')
-        else: currentLogFileModifiedTime = '1970-01-01 00:00:00'
-
-        if nextDayLogFileExist is True:
-            nextDayLogFileModifiedTimeSec = int(os.path.getmtime(nextDayLogFileName))
-        else:
-            nextDayLogFileModifiedTimeSec = 0
-
-        if nextDayLogFileExist is True:
-            nextDayLogFileModifiedTime = datetime.datetime.fromtimestamp(nextDayLogFileModifiedTimeSec).strftime(
-            '%Y-%m-%d %H:%M:%S')
-        else: nextDayLogFileModifiedTime = '1970-01-01 00:00:00'
-
-        if currentLogFileModifiedTimeSec > nextDayLogFileModifiedTimeSec:
-            logFileName = currentDayLogFileName
-            config.set('logfile', 'logFileName', logFileName)
-            with open('config.ini', 'w') as config_file:
-                config.write(config_file)
-            whatFileNewestText = "In current log file:"
-
-        else:
-            logFileName = nextDayLogFileName
-            currentDay = logFileName[slice(-6, -4)]
-            config.set('logfile', 'currentDay', currentDay)
-            config.set('logfile', 'logFileName', logFileName)
-            config.set('settings', 'totalLineRead', '1')
-            with open('config.ini', 'w') as config_file:
-                config.write(config_file)
-            whatFileNewestText = "Next Day file is newest"
-            return
-
-        print("Current file:", currentDayLogFileName, "Exist:", currentDayLogFileExist,
-              ", Modified:", currentLogFileModifiedTime)
-        print("Next file:", nextDayLogFileName, "Exist:", nextDayLogFileExist,
-              ", Modified:", nextDayLogFileModifiedTime)
-        print( 'File in work:', logFileName, )
-        print(whatFileNewestText, newLineCount, 'lines')
-        print(logFilesList)
+        # print("Current file:", currentDayLogFileName, "Exist:", currentDayLogFileExist,
+        #       ", Modified:", currentLogFileModifiedTime)
+        # print("Next file:", nextDayLogFileName, "Exist:", nextDayLogFileExist,
+        #       ", Modified:", nextDayLogFileModifiedTime)
+        # print( 'File in work:', logFileName, )
+        # print(whatFileNewestText, newLineCount, 'lines')
+        # print(logFilesList)
         #print('Slice:', logFileName[slice(-6, -4)])
+        print('File in work:',freshest_file)
+        print( newLineCount, 'lines')
 
         if newLineCount > lastLineCount:
             with open(logPath + "output_MCS_Log.log", 'a', encoding='utf-8') as output_file:
