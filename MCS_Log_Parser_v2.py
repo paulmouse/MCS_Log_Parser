@@ -18,7 +18,7 @@ logPath = config.get("output", "logPath")
 
 def process_file(config):
     logFileName = config.get('logfile', 'logFileName')
-    currentDay = config.get("logfile", "currentDay")
+    #currentDay = config.get("logfile", "currentDay")
     lastLineCount = int(config.get('settings', 'totalLineRead'))
     logFilePath = config.get("logfile", "logFilePath")
     logFileNamePrefix = config.get("logfile", "logFileNamePrefix")
@@ -38,11 +38,14 @@ def process_file(config):
 
     if logFileName != freshest_file:
         config.set('settings', 'totalLineRead', '1')
+        #config.set('logfile', 'currentDay', currentDay)
+        config.set('logfile', 'logFileName', freshest_file)
         with open('config.ini', 'w') as config_file:
             config.write(config_file)
 
     logFileName = freshest_file
     currentDay = freshest_file[slice(-6, -4)]
+
 
     #print(f"The freshest file is: {logFileName}")
     #print(f"Current day is: {currentDay}")
