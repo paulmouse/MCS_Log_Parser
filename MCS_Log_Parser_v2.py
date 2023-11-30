@@ -125,7 +125,8 @@ def process_file(config):
         # print(logFilesList)
         #print('Slice:', logFileName[slice(-6, -4)])
         print('File in work:',freshest_file)
-        print( newLineCount, 'lines')
+        print(newLineCount, 'lines')
+        print(f'TimeStamp: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}')
 
         if newLineCount > lastLineCount:
             with open(logPath + "output_MCS_Log.log", 'a', encoding='utf-8') as output_file:
