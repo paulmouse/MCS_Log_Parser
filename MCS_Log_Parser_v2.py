@@ -13,6 +13,7 @@ config.read('config.ini')
 sleepTime = int(config.get('settings', 'sleepTime'))
 xmlPath = config.get("output", "xmlPath")
 logPath = config.get("output", "logPath")
+mode = config.get("settings", "mode")
 
 
 
@@ -127,6 +128,12 @@ def process_file(config):
         print('File in work:',freshest_file)
         print(newLineCount, 'lines')
         print(f'TimeStamp: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}')
+        if mode == '1':
+            print(f'Running mode ONSE')
+            print('Waiting for exit....')
+        else:
+            print(f'Running mode CYCLE')
+
 
         if newLineCount > lastLineCount:
             with open(logPath + "output_MCS_Log.log", 'a', encoding='utf-8') as output_file:
@@ -195,7 +202,21 @@ def process_file(config):
                 config.write(config_file)
         return newLineCount
     #time.sleep(sleeptime)
-while True:
+
+# while True:
+#     lastLineCount = process_file(config)
+#     time.sleep(sleepTime)
+
+workMode = True
+
+while workMode:
     lastLineCount = process_file(config)
     time.sleep(sleepTime)
+    if mode == '1':
+        workMode = False
+        break
+    else:
+        workMode = True
+
+
 
