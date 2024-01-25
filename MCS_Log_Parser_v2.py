@@ -135,6 +135,7 @@ def process_file(config):
             print(f'Running mode CYCLE')
 
 
+
         if newLineCount > lastLineCount:
             with open(logPath + "output_MCS_Log.log", 'a', encoding='utf-8') as output_file:
                 for line in lines[lastLineCount:]:
