@@ -225,12 +225,12 @@ workMode = True
 
 while workMode:
     lastLineCount = process_file(config)
-    time.sleep(sleepTime)
     if mode == '1':
         workMode = False
         break
     else:
         workMode = True
+    time.sleep(sleepTime)
 
 
 
