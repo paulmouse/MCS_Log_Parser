@@ -174,6 +174,7 @@ def process_file(config):
                         # print(dt_now)
                         # print(dt_obj)
                         # print('dt_new',dt_new)
+                        #
                         # dt_now_str = datetime.datetime.now().strftime("%Y%m%d_%H%m%S")
                         # вермя с мс, для формирования различных имён файлов XML
                         dateTimeMacineEventFormatString = dateTimeMacineEventFormat.strftime("%Y%m%d_%H%M%S.%f")
