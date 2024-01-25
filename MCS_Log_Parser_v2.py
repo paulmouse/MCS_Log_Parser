@@ -6,6 +6,10 @@ import xml.etree.ElementTree as et
 import os.path
 import codecs
 import glob
+from datetime import date, timedelta
+
+
+
 
 config = configparser.ConfigParser()
 config.read('config.ini')
@@ -14,6 +18,12 @@ sleepTime = int(config.get('settings', 'sleepTime'))
 xmlPath = config.get("output", "xmlPath")
 logPath = config.get("output", "logPath")
 mode = config.get("settings", "mode")
+timecorrection = timedelta(hours=int(config.get('settings', 'timecorrection')))
+
+
+
+
+
 
 
 
@@ -128,8 +138,10 @@ def process_file(config):
         print('File in work:',freshest_file)
         print(newLineCount, 'lines')
         print(f'TimeStamp: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}')
+        print(f'CorrectedTimeStamp: {(datetime.datetime.now() - timecorrection).strftime('%Y-%m-%d %H:%M:%S')}')
+        # print(f'{datetime.datetime.now() - tc2}')
         if mode == '1':
-            print(f'Running mode ONSE')
+            print(f'Running mode ONCE')
             print('Waiting for exit....')
         else:
             print(f'Running mode CYCLE')
@@ -158,7 +170,7 @@ def process_file(config):
                         output_file.write(line)
                         dateTimeMacineEvent = data1 + ' ' + time1
                         dateTimeMacineEventFormat = datetime.datetime.strptime(dateTimeMacineEvent, "%d.%m.%y %H:%M:%S:%f")
-                        dateTimeMacineEventInsight = dateTimeMacineEventFormat.strftime("%Y-%m-%d %H:%M:%S")
+                        dateTimeMacineEventInsight = (dateTimeMacineEventFormat-timecorrection).strftime("%Y-%m-%d %H:%M:%S")
                         # print(dt_now)
                         # print(dt_obj)
                         # print('dt_new',dt_new)

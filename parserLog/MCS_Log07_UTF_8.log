@@ -1,0 +1,478 @@
+06.11.23; 07:16:37:162; E; MCS_MCVisual; MCS_MCVisual; SD_LOG_LEVEL Changed "I"
+06.11.23; 07:16:37:163; E; MCS_MCVisual; CSDLoggingAscii::Init; --- E n t e r e d - Logginglevel = 1 ---
+06.11.23; 07:16:37:164; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; Lade GUI-Settings XML-File = d:\schelling\pc1_mc\MCS_MCVisual.xml
+06.11.23; 07:16:37:180; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; Starte PObjektServer...
+06.11.23; 07:16:37:221; E; MCS_PObjektServer; MCS_PObjektServer; SD_LOG_LEVEL Changed "E"
+06.11.23; 07:16:37:221; E; MCS_PObjektServer; CSDLoggingAscii::Init; --- E n t e r e d - Logginglevel = 0 ---
+06.11.23; 07:16:37:221; E; MCS_PObjektServer; CProzessAbbild::InitObjektBackupAnzahl(); 20
+06.11.23; 07:16:37:222; E; MCS_PObjektServer; ProzessAbbildSaveThread; Start Save Thread (Looptime 20000, Thread-ID 8092)
+06.11.23; 07:16:37:261; E; MCS_PObjektServer; CPObjektServerDlg::OnInitDialog; Start Parameter Server LogOn (INI-File = d:\schelling\pc1_mc\Schelling.ini)
+06.11.23; 07:16:37:501; E; MCS_PObjektServer; CPObjektServerDlg::OnInitDialog; End Parameter Server LogOn
+06.11.23; 07:16:37:501; E; MCS_PObjektServer; CPObjektServerDlg::OnInitDialog; Start Anlage Init
+06.11.23; 07:16:37:564; E; MCS_PObjektServer; CPObjektServerDlg::OnInitDialog; End Anlage Init
+06.11.23; 07:16:43:186; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; PObjektServer -> RunProgramNoWait ausgeführt.
+06.11.23; 07:16:43:186; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; Lade Window Positionen (SD::Settings()->UI().ReadCRect)
+06.11.23; 07:16:43:186; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; InitCommonControls...
+06.11.23; 07:16:43:187; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; Lade MCSKonf.key ... 
+06.11.23; 07:16:43:188; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; Lade Konfigurationsfile... Standard
+06.11.23; 07:16:43:354; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; Init Anlage Objekt... 
+06.11.23; 07:16:43:416; E; MCS_MCVisual; ------------; MCS_Evolution - Version 06.05.2021.00 UNICODE | Schelling ah8 331.044 | Process-ID = 8060 | ------------
+06.11.23; 07:16:43:416; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; new CMCLaufDatMap Objekt... 
+06.11.23; 07:16:43:417; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; new CLaufInfoArray Objekt... 
+06.11.23; 07:16:43:417; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; Start Pläne lesen... 
+06.11.23; 07:16:43:417; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; new CProdList Objekt... 
+06.11.23; 07:16:43:419; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; Init MCShell Objekt... 
+06.11.23; 07:16:43:771; E; MCS_MCVisual; CPObjektClient::Connect(); Client MCS_Evolution connect To Server: localhost
+06.11.23; 07:16:43:778; E; MCS_MCVisual; InitProzess; Init Prozess 0
+06.11.23; 07:16:43:837; I; MCS_MCVisual; CMainFrame::OnCreate; Enter Function...
+06.11.23; 07:16:43:837; I; MCS_MCVisual; CSDIFrameWnd::OnCreateClient; Enter Function...
+06.11.23; 07:16:43:957; I; MCS_MCVisual; CMainFrame::OnCreate; Starte Import Thread...
+06.11.23; 07:16:43:957; I; MCS_MCVisual; CMainFrame::InitAutoLaufLoeschen; Löschen ist NICHT aktiv
+06.11.23; 07:16:43:957; I; MCS_MCVisual; CDirectoryWatcher; Start Thread
+06.11.23; 07:16:43:958; I; MCS_MCVisual; CMainFrame::OnCreate; Leave Function...
+06.11.23; 07:16:44:058; I; MCS_MCVisual; CAlarmLogDBClient::CheckDBConnectionPrepareTable(); Datenbank Saege1 ist vorhanden!
+06.11.23; 07:16:44:067; I; MCS_MCVisual; CAlarmLogDBClient::CheckDBConnectionPrepareTable(); Tabelle AlarmLog existiert!
+06.11.23; 07:16:44:086; I; MCS_MCVisual; CSaegeblattDB::CheckDBConnectionPrepareTable(); Datenbank Saege1 ist vorhanden!
+06.11.23; 07:16:44:088; I; MCS_MCVisual; CSaegeblattDB::CheckDBConnectionPrepareTable(); Tabelle Saegeblaetter existiert!
+06.11.23; 07:16:44:113; I; MCS_MCVisual; CBaseFormView::MCInitView; Enter Function for CFViewProdPageMCA
+06.11.23; 07:16:44:269; I; MCS_MCVisual; CBaseFormView::MCInitView; Leave Function for CFViewProdPageMCA
+06.11.23; 07:16:44:270; I; MCS_MCVisual; TreeCtrlPlanAuswahl; Starte Update Thread...
+06.11.23; 07:16:44:271; I; MCS_MCVisual; CDirectoryWatcher; Start Thread
+06.11.23; 07:16:44:558; I; MCS_MCVisual; CBaseFormView::MCInitView; Enter Function for CFViewAlarmPage
+06.11.23; 07:16:44:560; I; MCS_MCVisual; CBaseFormView::MCInitView; Leave Function for CFViewAlarmPage
+06.11.23; 07:16:44:565; I; MCS_MCVisual; CBaseFormView::MCInitView; Enter Function for CFViewPlanEdit
+06.11.23; 07:16:44:566; I; MCS_MCVisual; CBaseFormView::MCInitView; Leave Function for CFViewPlanEdit
+06.11.23; 07:16:44:637; I; MCS_MCVisual; CBaseFormView::MCInitView; Enter Function for CFViewSPSVals
+06.11.23; 07:16:44:639; I; MCS_MCVisual; CBaseFormView::MCInitView; Leave Function for CFViewSPSVals
+06.11.23; 07:16:44:645; I; MCS_MCVisual; CBaseFormView::MCInitView; Enter Function for CFViewSaegeBlattVerwaltung
+06.11.23; 07:16:44:646; I; MCS_MCVisual; CBaseFormView::MCInitView; Leave Function for CFViewSaegeBlattVerwaltung
+06.11.23; 07:16:44:712; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; Move Main Window to Pos -8/-8 1688/1058
+06.11.23; 07:16:44:956; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; Starte Delete Thread...
+06.11.23; 07:16:44:957; I; MCS_MCVisual; CMCS_MCVisualApp::InitInstance; Init ENDE.
+06.11.23; 07:16:52:002; I; MCS_MCVisual; CStdioFileUC::Open; File: d:\schelling\SchellingData\NcData\00000235.l\Substitutions.svd CFileException m_cause = Файл d:\schelling\SchellingData\NcData\00000235.l\Substitutions.svd не найден.
+06.11.23; 07:16:53:959; I; MCS_MCVisual; CMCShell::ConnectOPCClients; Connect to OPC-Server on Computer 
+06.11.23; 07:16:58:160; E; MCS_MCVisual; CMCShell::WriteTelegrammOk; Bereich 10 Sendefreigabe zurückgesetzt, bis Parameter gesendet!
+06.11.23; 07:17:04:019; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 07:17:04:019; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 07:17:04:019; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 07:17:04:019; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 07:17:04:668; E; MCS_MCVisual; CMCShell::WriteTelegrammOk; Bereich 50 Sendefreigabe zurückgesetzt, bis Parameter gesendet!
+06.11.23; 07:17:05:601; E; MCS_MCVisual; CMCShell::WriteTelegrammOk; Bereich 50 Sendefreigabe zurückgesetzt, bis Parameter gesendet!
+06.11.23; 08:26:12:487; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 110.100.0, Button-Up (0), Funktion undef (0) | Istwert 284.59 | Sollwert -10535.00 | DA-Wert 0
+06.11.23; 08:26:13:367; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 110.100.0, Button-Up (2), Funktion undef (-1) | Istwert 284.59 | Sollwert -10535.00 | DA-Wert 0
+06.11.23; 08:26:13:367; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Betriebsart <Калибровка> aktiviert im Bereich 110
+06.11.23; 08:26:13:454; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 110.100.0, Button-Up (0), Funktion undef (-1) | Istwert 284.59 | Sollwert -10535.00 | DA-Wert 0
+06.11.23; 08:26:14:006; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 110.100.0, Button-Up (0), Funktion undef (-1) | Istwert 277.35 | Sollwert -221.20 | DA-Wert -686
+06.11.23; 08:26:15:801; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 50.50.0, Button-Up (0), Funktion undef (0) | Istwert 599.55 | Sollwert 599.55 | DA-Wert 0
+06.11.23; 08:26:16:447; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 50.50.0, Button-Up (2), Funktion undef (-1) | Istwert 599.55 | Sollwert 599.55 | DA-Wert 0
+06.11.23; 08:26:16:447; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Betriebsart <Калибровка> aktiviert im Bereich 50
+06.11.23; 08:26:16:535; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 50.50.0, Button-Up (0), Funktion undef (-1) | Istwert 599.55 | Sollwert 599.55 | DA-Wert 0
+06.11.23; 08:26:17:250; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 50.50.0, Button-Up (0), Funktion undef (-1) | Istwert 594.41 | Sollwert 345.16 | DA-Wert -340
+06.11.23; 08:26:18:083; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 10.100.0, Button-Up (0), Funktion undef (0) | Istwert 25.54 | Sollwert 30.00 | DA-Wert 0
+06.11.23; 08:26:19:069; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 10.190.0, Button-Up (0), Funktion undef (0) | Istwert 0.00 | Sollwert 0.00 | DA-Wert 0
+06.11.23; 08:26:19:787; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 10.190.0, Button-Down (1), Funktion Bewegung GESPERRT (16777216) | Istwert 0.00 | Sollwert 0.00 | DA-Wert 0
+06.11.23; 08:26:19:787; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Betriebsart <Ручной> aktiviert im Bereich 10
+06.11.23; 08:26:19:914; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 10.190.0, Button-Up (0), Funktion Bewegung GESPERRT (16777216) | Istwert 0.00 | Sollwert 0.00 | DA-Wert 0
+06.11.23; 08:26:21:895; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 40.50.0, Button-Up (0), Funktion undef (0) | Istwert 649.32 | Sollwert 649.32 | DA-Wert 0
+06.11.23; 08:26:22:486; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 40.50.0, Button-Up (2), Funktion undef (-1) | Istwert 649.32 | Sollwert 649.32 | DA-Wert 0
+06.11.23; 08:26:22:486; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Betriebsart <Калибровка> aktiviert im Bereich 40
+06.11.23; 08:26:22:609; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 40.50.0, Button-Up (0), Funktion undef (-1) | Istwert 649.32 | Sollwert 649.32 | DA-Wert 0
+06.11.23; 08:26:23:113; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 40.50.0, Button-Up (0), Funktion undef (-1) | Istwert 649.32 | Sollwert 399.32 | DA-Wert -28
+06.11.23; 08:26:24:418; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 10.50.0, Button-Up (0), Funktion undef (0) | Istwert 10501.20 | Sollwert 10501.20 | DA-Wert 0
+06.11.23; 08:26:24:926; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 10.50.0, Button-Up (2), Funktion undef (-1) | Istwert 10501.20 | Sollwert 10501.20 | DA-Wert 0
+06.11.23; 08:26:24:926; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Betriebsart <Калибровка> aktiviert im Bereich 10
+06.11.23; 08:26:25:031; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 10.50.0, Button-Up (0), Funktion undef (-1) | Istwert 10501.20 | Sollwert 10001.20 | DA-Wert 0
+06.11.23; 08:26:25:543; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 10.50.0, Button-Up (0), Funktion undef (-1) | Istwert 10501.20 | Sollwert 10001.20 | DA-Wert 0
+06.11.23; 08:27:01:119; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 40.90.0, Button-Up (0), Funktion undef (0) | Istwert -599.49 | Sollwert -599.49 | DA-Wert 0
+06.11.23; 08:27:58:349; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 50.0.0, Button-Up (0), Funktion undef (0) | Istwert 0.00 | Sollwert 0.00 | DA-Wert 0
+06.11.23; 08:27:59:554; E; MCS_MCVisual; CDlgBgrHandbetrieb::WriteDataToPLC; Handbetrieb: 50.32.1, Button-Up (0), Funktion undef (0) | Istwert 6198.52 | Sollwert 6248.52 | DA-Wert 0
+06.11.23; 08:30:52:369; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:31:17:734; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 192
+06.11.23; 08:31:17:735; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1536 Paketnr. 192
+06.11.23; 08:31:17:810; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 193 mit 8 Platten beschicken
+06.11.23; 08:31:17:811; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:32:32:307; E; MCS_MCVisual; CMCLibBeschickung::StapelAnSpsBelegtAnpassen; Stapel-Objekt 2866.1 auf Platz 10.100 Plattenanz. auf 1 reduziert
+06.11.23; 08:32:32:307; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 08:32:32:311; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 08:32:46:962; I; MCS_MCVisual; CStdioFileUC::Open; File: d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp CFileException m_cause = d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp содержит недопустимый путь.
+06.11.23; 08:32:51:547; I; MCS_MCVisual; CMCAnlageVis::POSvr_OnChangeAnforderung; Manuelle SPS-Anforderung für Bereich.Platz 10.100 auslösen!
+06.11.23; 08:32:51:564; E; MCS_MCVisual; CMCAnlageVis::StartManStpPlatzEinfahren; von Quell-Platz 10.120 nach Ziel-Platz 10.100
+06.11.23; 08:33:54:512; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:33:54:512; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:33:54:512; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:33:54:512; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:34:13:960; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:34:13:964; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 9962.1 gelöscht von Platz 50.310
+06.11.23; 08:34:15:242; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:34:40:563; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 193
+06.11.23; 08:34:40:564; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1544 Paketnr. 193
+06.11.23; 08:34:40:645; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 194 mit 8 Platten beschicken
+06.11.23; 08:34:40:645; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:36:07:126; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:36:32:400; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 194
+06.11.23; 08:36:32:402; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1552 Paketnr. 194
+06.11.23; 08:36:32:524; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 195 mit 8 Platten beschicken
+06.11.23; 08:36:32:524; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:37:14:012; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:37:14:012; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:37:14:012; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:37:14:012; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:37:33:519; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:37:33:523; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 9987.1 gelöscht von Platz 50.310
+06.11.23; 08:37:58:407; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:38:23:718; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 195
+06.11.23; 08:38:23:719; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1560 Paketnr. 195
+06.11.23; 08:38:23:866; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 196 mit 8 Platten beschicken
+06.11.23; 08:38:23:867; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:39:04:705; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:39:04:705; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:39:04:705; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:39:04:705; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:39:38:889; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:39:38:894; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 7.1 gelöscht von Platz 50.310
+06.11.23; 08:39:49:995; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:40:15:288; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 196
+06.11.23; 08:40:15:289; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1568 Paketnr. 196
+06.11.23; 08:40:15:368; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 197 mit 8 Platten beschicken
+06.11.23; 08:40:15:368; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:40:56:642; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:40:56:642; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:40:56:642; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:40:56:642; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:41:35:770; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:41:35:773; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 27.1 gelöscht von Platz 50.310
+06.11.23; 08:41:41:075; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:41:43:158; I; MCS_MCVisual; CMCLibARB::TestNextHtLage; Nächste Lage situativ bestimmt (1): 00000235-1, Format 1, Stapel.Lage 13.8
+06.11.23; 08:41:58:534; E; MCS_MCVisual; CMCShell::PO_AufPlatz; Objekt 37.1 auf Platz 10.110 gelegt (bOk = 1)
+06.11.23; 08:41:58:540; I; MCS_MCVisual; CMCAnlageVis::POSvr_OnChangeAnforderung; Manuelle SPS-Anforderung für Bereich.Platz 10.110 auslösen!
+06.11.23; 08:42:06:420; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 197
+06.11.23; 08:42:06:421; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1576 Paketnr. 197
+06.11.23; 08:42:06:557; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 198 mit 8 Platten beschicken
+06.11.23; 08:42:06:557; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:42:48:343; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:42:48:344; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:42:48:344; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:42:48:344; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:42:52:917; E; MCS_MCVisual; CMCShell::PO_ImportVonStapelDat; Fehler bei Import 'Stapel.dat' File d:\schelling\SchellingData\MCImport\Stapel.dat
+06.11.23; 08:42:52:929; E; MCS_MCVisual; CMCShell::PO_AufPlatz; Objekt 46.1 auf Platz 10.120 gelegt (bOk = 1)
+06.11.23; 08:43:01:008; E; MCS_MCVisual; CMCLibBeschickung::StapelAnSpsBelegtAnpassen; Stapel-Objekt 9957.1 auf Platz 10.100 Plattenanz. auf 1 reduziert
+06.11.23; 08:43:01:009; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 08:43:01:011; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 08:43:15:696; I; MCS_MCVisual; CStdioFileUC::Open; File: d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp CFileException m_cause = d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp содержит недопустимый путь.
+06.11.23; 08:43:20:441; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:43:20:446; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 48.1 gelöscht von Platz 50.310
+06.11.23; 08:43:29:068; I; MCS_MCVisual; CMCAnlageVis::POSvr_OnChangeAnforderung; Manuelle SPS-Anforderung für Bereich.Platz 10.120 auslösen!
+06.11.23; 08:44:40:266; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:44:40:266; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:44:40:266; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:44:40:266; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:44:57:007; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:44:59:669; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:44:59:674; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 67.1 gelöscht von Platz 50.310
+06.11.23; 08:45:22:263; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 198
+06.11.23; 08:45:22:264; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1584 Paketnr. 198
+06.11.23; 08:45:22:360; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 199 mit 8 Platten beschicken
+06.11.23; 08:45:22:360; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:46:07:833; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.303 nicht belegt
+06.11.23; 08:46:07:836; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 9974.1 gelöscht von Platz 110.303
+06.11.23; 08:46:48:100; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:46:49:088; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.203 nicht belegt
+06.11.23; 08:46:49:091; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 45.1 gelöscht von Platz 110.203
+06.11.23; 08:47:13:396; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 199
+06.11.23; 08:47:13:397; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1592 Paketnr. 199
+06.11.23; 08:47:13:489; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 200 mit 8 Platten beschicken
+06.11.23; 08:47:13:489; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:47:55:306; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:47:55:306; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:47:55:306; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:47:55:306; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:48:14:858; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:48:14:863; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 90.1 gelöscht von Platz 50.310
+06.11.23; 08:48:38:794; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:48:45:866; E; MCS_MCVisual; CMCShell::PO_AufPlatz; Objekt 99.1 auf Platz 10.110 gelegt (bOk = 1)
+06.11.23; 08:48:45:870; I; MCS_MCVisual; CMCAnlageVis::POSvr_OnChangeAnforderung; Manuelle SPS-Anforderung für Bereich.Platz 10.110 auslösen!
+06.11.23; 08:49:04:078; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 200
+06.11.23; 08:49:04:079; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1600 Paketnr. 200
+06.11.23; 08:49:04:176; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 201 mit 8 Platten beschicken
+06.11.23; 08:49:04:176; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:49:46:066; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:49:46:067; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:49:46:067; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:49:46:067; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:50:14:611; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:50:14:616; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 110.1 gelöscht von Platz 50.310
+06.11.23; 08:50:29:466; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:50:54:732; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 201
+06.11.23; 08:50:54:734; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1608 Paketnr. 201
+06.11.23; 08:50:54:883; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 202 mit 8 Platten beschicken
+06.11.23; 08:50:54:883; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:51:37:163; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:51:37:163; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:51:37:163; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:51:37:163; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:51:56:920; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:51:56:924; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 133.1 gelöscht von Platz 50.310
+06.11.23; 08:52:20:168; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:52:45:419; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 202
+06.11.23; 08:52:45:420; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1616 Paketnr. 202
+06.11.23; 08:52:45:514; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 203 mit 8 Platten beschicken
+06.11.23; 08:52:45:515; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:53:20:245; E; MCS_MCVisual; CMCLibBeschickung::StapelAnSpsBelegtAnpassen; Stapel-Objekt 53.1 auf Platz 10.100 Plattenanz. auf 1 reduziert
+06.11.23; 08:53:20:245; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 08:53:20:246; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 08:53:28:159; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:53:28:159; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:53:28:159; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:53:28:159; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:53:34:547; I; MCS_MCVisual; CStdioFileUC::Open; File: d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp CFileException m_cause = d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp содержит недопустимый путь.
+06.11.23; 08:53:50:193; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:53:50:197; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 153.1 gelöscht von Platz 50.310
+06.11.23; 08:55:19:392; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:55:19:392; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:55:19:392; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:55:19:392; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:55:35:935; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:55:48:080; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:55:48:086; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 171.1 gelöscht von Platz 50.310
+06.11.23; 08:56:01:236; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 203
+06.11.23; 08:56:01:237; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1624 Paketnr. 203
+06.11.23; 08:56:01:318; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 204 mit 8 Platten beschicken
+06.11.23; 08:56:01:318; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:57:00:906; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.223 nicht belegt
+06.11.23; 08:57:00:910; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 95.1 gelöscht von Platz 110.223
+06.11.23; 08:57:26:587; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:57:51:788; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 204
+06.11.23; 08:57:51:789; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1632 Paketnr. 204
+06.11.23; 08:57:51:882; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 205 mit 8 Platten beschicken
+06.11.23; 08:57:51:882; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:57:55:332; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.243 nicht belegt
+06.11.23; 08:57:55:335; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 149.1 gelöscht von Platz 110.243
+06.11.23; 08:58:34:359; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:58:34:359; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:58:34:359; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:58:34:359; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 08:58:44:850; E; MCS_MCVisual; CMCShell::PO_ImportVonStapelDat; Fehler bei Import 'Stapel.dat' File d:\schelling\SchellingData\MCImport\Stapel.dat
+06.11.23; 08:58:44:862; E; MCS_MCVisual; CMCShell::PO_AufPlatz; Objekt 190.1 auf Platz 10.110 gelegt (bOk = 1)
+06.11.23; 08:58:53:607; I; MCS_MCVisual; CMCAnlageVis::POSvr_OnChangeAnforderung; Manuelle SPS-Anforderung für Bereich.Platz 10.110 auslösen!
+06.11.23; 08:59:05:691; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 08:59:05:694; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 191.1 gelöscht von Platz 50.310
+06.11.23; 08:59:17:082; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 08:59:42:346; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 205
+06.11.23; 08:59:42:347; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1640 Paketnr. 205
+06.11.23; 08:59:42:448; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 206 mit 8 Platten beschicken
+06.11.23; 08:59:42:449; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:00:25:128; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:00:25:128; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:00:25:128; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:00:25:128; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:00:48:683; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:00:48:688; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 213.1 gelöscht von Platz 50.310
+06.11.23; 09:01:06:793; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:01:32:077; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 206
+06.11.23; 09:01:32:078; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1648 Paketnr. 206
+06.11.23; 09:01:32:200; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 207 mit 8 Platten beschicken
+06.11.23; 09:01:32:201; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:02:15:020; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:02:15:020; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:02:15:020; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:02:15:020; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:02:48:262; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:02:48:267; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 233.1 gelöscht von Platz 50.310
+06.11.23; 09:02:57:567; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:03:22:815; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 207
+06.11.23; 09:03:22:816; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1656 Paketnr. 207
+06.11.23; 09:03:22:897; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 208 mit 8 Platten beschicken
+06.11.23; 09:03:22:898; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:03:33:420; E; MCS_MCVisual; CMCLibBeschickung::StapelAnSpsBelegtAnpassen; Stapel-Objekt 151.1 auf Platz 10.100 Plattenanz. auf 1 reduziert
+06.11.23; 09:03:33:421; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 09:03:33:422; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 09:03:48:631; I; MCS_MCVisual; CStdioFileUC::Open; File: d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp CFileException m_cause = d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp содержит недопустимый путь.
+06.11.23; 09:03:48:706; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 10.100 nicht belegt
+06.11.23; 09:04:04:987; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:04:04:988; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:04:04:988; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:04:04:988; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:04:24:170; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:04:24:174; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 253.1 gelöscht von Platz 50.310
+06.11.23; 09:05:55:037; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:05:55:037; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:05:55:037; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:05:55:037; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:06:13:947; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:06:39:273; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 208
+06.11.23; 09:06:39:274; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1664 Paketnr. 208
+06.11.23; 09:06:39:403; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 209 mit 8 Platten beschicken
+06.11.23; 09:06:39:404; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:06:39:468; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:06:39:473; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 273.1 gelöscht von Platz 50.310
+06.11.23; 09:07:46:909; E; MCS_MCVisual; CMCShell::PO_ImportVonStapelDat; Fehler bei Import 'Stapel.dat' File d:\schelling\SchellingData\MCImport\Stapel.dat
+06.11.23; 09:07:46:918; E; MCS_MCVisual; CMCShell::PO_AufPlatz; Objekt 287.1 auf Platz 10.110 gelegt (bOk = 1)
+06.11.23; 09:08:04:435; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:08:29:769; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 209
+06.11.23; 09:08:29:770; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1672 Paketnr. 209
+06.11.23; 09:08:29:904; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 210 mit 8 Platten beschicken
+06.11.23; 09:08:29:905; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:09:12:020; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:09:12:020; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:09:12:020; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:09:12:020; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:09:45:125; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:09:45:129; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 297.1 gelöscht von Platz 50.310
+06.11.23; 09:09:54:426; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:10:17:141; I; MCS_MCVisual; CMCAnlageVis::POSvr_OnChangeAnforderung; Manuelle SPS-Anforderung für Bereich.Platz 10.110 auslösen!
+06.11.23; 09:10:19:671; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 210
+06.11.23; 09:10:19:672; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1680 Paketnr. 210
+06.11.23; 09:10:19:750; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 211 mit 8 Platten beschicken
+06.11.23; 09:10:19:750; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:11:03:710; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:11:03:711; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:11:03:711; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:11:03:711; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:11:11:117; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.263 nicht belegt
+06.11.23; 09:11:11:120; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 212.1 gelöscht von Platz 110.263
+06.11.23; 09:11:43:789; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:11:45:557; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:11:45:561; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 317.1 gelöscht von Platz 50.310
+06.11.23; 09:12:02:100; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.283 nicht belegt
+06.11.23; 09:12:02:103; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 261.1 gelöscht von Platz 110.283
+06.11.23; 09:12:09:059; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 211
+06.11.23; 09:12:09:060; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1688 Paketnr. 211
+06.11.23; 09:12:09:148; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 212 mit 8 Platten beschicken
+06.11.23; 09:12:09:149; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:12:43:188; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.303 nicht belegt
+06.11.23; 09:12:43:192; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 314.1 gelöscht von Platz 110.303
+06.11.23; 09:12:52:853; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:12:52:853; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:12:52:853; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:12:52:853; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:13:12:689; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:13:12:694; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 337.1 gelöscht von Platz 50.310
+06.11.23; 09:13:22:369; E; MCS_MCVisual; CMCLibBeschickung::StapelAnSpsBelegtAnpassen; Stapel-Objekt 250.1 auf Platz 10.100 Plattenanz. auf 1 reduziert
+06.11.23; 09:13:22:370; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 09:13:22:370; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 09:13:36:796; I; MCS_MCVisual; CStdioFileUC::Open; File: d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp CFileException m_cause = d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp содержит недопустимый путь.
+06.11.23; 09:14:41:423; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:14:41:423; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:14:41:423; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:14:41:423; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:14:57:525; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:15:09:223; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:15:09:227; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 356.1 gelöscht von Platz 50.310
+06.11.23; 09:15:22:834; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 212
+06.11.23; 09:15:22:835; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1696 Paketnr. 212
+06.11.23; 09:15:22:908; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 213 mit 8 Platten beschicken
+06.11.23; 09:15:22:908; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:15:42:052; E; MCS_MCVisual; CMCShell::PO_AufPlatz; Objekt 368.1 auf Platz 10.110 gelegt (bOk = 1)
+06.11.23; 09:15:42:059; I; MCS_MCVisual; CMCAnlageVis::POSvr_OnChangeAnforderung; Manuelle SPS-Anforderung für Bereich.Platz 10.110 auslösen!
+06.11.23; 09:16:46:881; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:17:12:160; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 213
+06.11.23; 09:17:12:161; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1704 Paketnr. 213
+06.11.23; 09:17:12:259; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 214 mit 8 Platten beschicken
+06.11.23; 09:17:12:260; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:17:55:381; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:17:55:381; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:17:55:381; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:17:55:381; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:18:14:766; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:18:14:770; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 383.1 gelöscht von Platz 50.310
+06.11.23; 09:18:35:982; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:19:01:313; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 214
+06.11.23; 09:19:01:314; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1712 Paketnr. 214
+06.11.23; 09:19:01:388; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 215 mit 8 Platten beschicken
+06.11.23; 09:19:01:389; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:19:44:628; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:19:44:628; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:19:44:628; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:19:44:628; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:20:25:059; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:20:34:457; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:20:34:462; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 401.1 gelöscht von Platz 50.310
+06.11.23; 09:20:50:252; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 215
+06.11.23; 09:20:50:253; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1720 Paketnr. 215
+06.11.23; 09:20:50:367; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 216 mit 8 Platten beschicken
+06.11.23; 09:20:50:368; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:21:33:766; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:21:33:766; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:21:33:766; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:21:33:766; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:22:14:874; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:22:22:894; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:22:22:899; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 418.1 gelöscht von Platz 50.310
+06.11.23; 09:22:40:149; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 216
+06.11.23; 09:22:40:150; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1728 Paketnr. 216
+06.11.23; 09:22:40:245; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 217 mit 8 Platten beschicken
+06.11.23; 09:22:40:246; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:23:22:553; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:23:22:553; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:23:22:553; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:23:22:553; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:23:33:880; E; MCS_MCVisual; CMCLibBeschickung::StapelAnSpsBelegtAnpassen; Stapel-Objekt 343.1 auf Platz 10.100 Plattenanz. auf 1 reduziert
+06.11.23; 09:23:33:881; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 09:23:33:883; E; MCS_MCVisual; CMCLibBeschickung::InitConfig; SPS Letzte-Platte Meldung mit Quellplatz 10.100, Code 5
+06.11.23; 09:23:42:275; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:23:42:279; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 437.1 gelöscht von Platz 50.310
+06.11.23; 09:23:48:790; I; MCS_MCVisual; CStdioFileUC::Open; File: d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp CFileException m_cause = d:\schelling\SchellingData\NcData\EXTERN.l\0001.ncp содержит недопустимый путь.
+06.11.23; 09:25:12:297; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:25:12:297; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:25:12:297; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:25:12:297; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:25:28:598; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:25:49:814; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.223 nicht belegt
+06.11.23; 09:25:49:818; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 433.1 gelöscht von Platz 110.223
+06.11.23; 09:25:53:849; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 217
+06.11.23; 09:25:53:850; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1736 Paketnr. 217
+06.11.23; 09:25:53:948; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 218 mit 8 Platten beschicken
+06.11.23; 09:25:53:949; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:26:03:647; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:26:03:652; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 457.1 gelöscht von Platz 50.310
+06.11.23; 09:26:50:527; E; MCS_MCVisual; CMCShell::PO_AufPlatz; Objekt 469.1 auf Platz 10.110 gelegt (bOk = 1)
+06.11.23; 09:26:50:535; I; MCS_MCVisual; CMCAnlageVis::POSvr_OnChangeAnforderung; Manuelle SPS-Anforderung für Bereich.Platz 10.110 auslösen!
+06.11.23; 09:27:02:568; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.203 nicht belegt
+06.11.23; 09:27:02:571; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 366.1 gelöscht von Platz 110.203
+06.11.23; 09:27:17:953; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:27:43:280; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 218
+06.11.23; 09:27:43:282; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1744 Paketnr. 218
+06.11.23; 09:27:43:354; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 219 mit 8 Platten beschicken
+06.11.23; 09:27:43:355; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:28:25:435; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.243 nicht belegt
+06.11.23; 09:28:25:439; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 473.1 gelöscht von Platz 110.243
+06.11.23; 09:28:25:940; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:28:25:941; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:28:25:941; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:28:25:941; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:29:07:338; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:29:23:332; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:29:23:336; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 481.1 gelöscht von Platz 50.310
+06.11.23; 09:29:32:645; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 219
+06.11.23; 09:29:32:646; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1752 Paketnr. 219
+06.11.23; 09:29:32:744; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 220 mit 8 Platten beschicken
+06.11.23; 09:29:32:744; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:30:14:863; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:30:14:863; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:30:14:863; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:30:14:863; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:30:45:034; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:30:45:037; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 501.1 gelöscht von Platz 50.310
+06.11.23; 09:30:56:490; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:31:21:805; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 220
+06.11.23; 09:31:21:806; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1760 Paketnr. 220
+06.11.23; 09:31:21:902; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 221 mit 8 Platten beschicken
+06.11.23; 09:31:21:903; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:32:05:236; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:32:05:236; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:32:05:236; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:32:05:236; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:32:30:723; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 50.310 nicht belegt
+06.11.23; 09:32:30:728; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 523.1 gelöscht von Platz 50.310
+06.11.23; 09:32:45:716; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:33:10:990; I; MCS_MCVisual; CProdList::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 8 Paketnr. 221
+06.11.23; 09:33:10:991; I; MCS_MCVisual; CNcAccess::AddBeschickPaket; ADD Beschickpaket von Lauf 00000235 Plan 1 Platten 1768 Paketnr. 221
+06.11.23; 09:33:11:098; I; MCS_MCVisual; CMCLibBeschickung::BestimmeNextPaketDaten; Bei nächstem Lauf 00000235 Plan 1 Paketnr 222 mit 8 Platten beschicken
+06.11.23; 09:33:11:098; I; MCS_MCVisual; CMCLibBeschickung::FindBeschickHtVonPlatte; HT-Vorwahl = 1, next Platte = 'ЛДСП_БЛ_16_(ЛЕС)' 
+06.11.23; 09:45:38:128; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.283 nicht belegt
+06.11.23; 09:45:38:131; E; MCS_MCVisual; CMCShell::PO_Delete; Objekt 595.1 gelöscht von Platz 110.283
+06.11.23; 09:46:12:389; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:46:12:389; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:46:12:389; E; MCS_MCVisual; CMCLib::GetPaketPlan; Paket-Plan nicht vorhanden - org. Plan laden: Lauf  Plan 0 Paket 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:46:12:389; E; MCS_MCVisual; CMCLib::GetPaketPlan; Org. Plan nicht vorhanden! Lauf  Plan 0 Pfad d:\schelling\SchellingData\NcData
+06.11.23; 09:46:21:732; I; MCS_MCVisual; CMCShell::SPS_POPlatzmeldung; Platz 110.303 nicht belegt
